@@ -1,0 +1,16 @@
+DIV {color:purple;
+  margin:20px;}
+*p {color:blue;}
+DIV p{color:pink;}
+nav p{color:red;}
+aside {
+    background-color: pink;
+    padding: 18px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+}
+*img{
+display: block; /* asegura que las imagenes se comporten como bloques*/
+margin: 0 auto; /*establece imagenespara centrar horizontalmente*/}
+div, img{
+background-color: silver;/*añade el color gris claro al texto de div sin tener nada anidado*/}

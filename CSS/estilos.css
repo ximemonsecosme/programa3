@@ -1,0 +1,121 @@
+   #tabla-estilizada { width:100%
+                       border-collapse: colapse;}
+  #tabla-estilizada th, #tabla-estilizada td{
+                                             padding:10px;
+                                             text-align: center;
+                                             border:1px solid #ddd;}
+  #tabla-estilizada th,{
+                      blackgorund-color:#f2f2f2;
+                      font-weight:bold;}
+tr:nth-child(even) { background-color: #f9f9f9;}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%}
+footer {color: pink;}
+body {color: 12619E;
+      text-align: center;}
+              .container {
+                 display: flex; /* Utilizamos flexbox para alinear elementos */
+                 align-items: center; /* Alineamos verticalmente */
+               }
+               .texto {
+                 flex: 1; /* El texto ocupará todo el espacio disponible */
+                 padding: 20px; /* Espacio alrededor del texto */
+               }
+               .imagen {
+                 max-width: 100%; /* La imagen no superará el ancho del contenedor */
+                 height: auto; /* La altura se ajustará automáticamente */
+                 margin-right: 20px; /* Espacio a la derecha de la imagen */
+               }
+               .container {
+    display: flex; /* Utilizamos flexbox para alinear elementos */
+    align-items: center; /* Alineamos verticalmente */
+  }
+      nav {
+           background-color: #333; /* Color de fondo de la barra de menú */
+           color: #fff; /* Color del texto */
+           padding: 10px 0; /* Espaciado interno */
+       }
+
+       nav ul {
+           list-style-type: none; /* Elimina los puntos de la lista */
+           margin: 0;
+           padding: 0;
+       }
+
+       nav ul li {
+           display: inline-block; /* Hace que los elementos de la lista se muestren en línea */
+       }
+
+       nav ul li a {
+           display: block;
+           padding: 10px 20px; /* Espaciado interno de los enlaces */
+           color: #fff; /* Color del texto de los enlaces */
+           text-decoration: none; /* Elimina el subrayado predeterminado */
+       }
+
+       nav ul li a:hover {
+           background-color: #555; /* Cambia el color de fondo en el hover */
+       }
+
+       /* Estilos para las secciones */
+       .contenido section {
+           background-color: #f2f2f2; /* Color de fondo de las secciones */
+           padding: 20px; /* Espaciado interno de las secciones */
+           margin-bottom: 20px; /* Espacio entre secciones */
+       }
+.cuerpo {
+  font-size: 13px;
+  color: green rgb(165,165,164);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+  font-size:18px;
+  text-aling: center;
+  color: blue;
+  font-weight: bold;
+  font-family: 'Franklin Gotic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+  color: blue;
+  font-size: 30px;
+}
+.menu-principal{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+.menu-principal li{
+  margin: 0;
+  padding: 0;
+}
+.menu-princiapal a{
+display: block;
+padding: 10px;
+text-decpration: none;
+color: #333;
+}
+#parrafo{
+  color: green;
+  font-size:14px;
+}
+#img{
+  width: 30%; /*Ancho de la imagen*/
+  height: auto; /*Altura automatica para las proporciones*/
+  margin: auto; /*Centra la imagen horizontalemnte*/
+}
+#banner{
+  width: 100%;
+  height: 265px;
+  background-color: #E4E2DD;
+}
+#img-banner{
+  display:block;
+  margin: auto;
+  width: 100%;
+  max-widith:500px;
+  min-widith: 265px;
+}
